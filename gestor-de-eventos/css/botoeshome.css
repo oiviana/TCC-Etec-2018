@@ -1,0 +1,23 @@
+
+
+.btn{
+	width: 100%;
+	background: #1c4796 ;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	margin-bottom: 30px;
+    font-family: 'moleelnav', sans-serif !important;
+    font-size: 21px !important;
+
+}
+
+
+
+.btn:hover{
+
+  background-color:#26A65B;
+  color:white;
+}

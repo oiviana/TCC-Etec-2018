@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*navbar*/
+
+.primeiranav{
+
+  background-color: transparent !important; 
+   
+  box-shadow: none;
+  transition: 0.4s !important;
+
+padding-top: 1.4% !important;
+padding-bottom:3% !important; 
+height: 140px !important;
+
+}
+
+.segundanav{
+
+   background-color: #FFFFFF !important; 
+   
+  box-shadow: none;
+  transition: 0.4s !important;
+
+padding-top: 1.4% !important;
+padding-bottom:3% !important; 
+height: 140px !important;
+}
+
+.terceiranav{
+
+   background-color: #FFFFFF !important; 
+   
+  box-shadow: none;
+  transition: 0.4s !important;
+
+padding-top: 1.4% !important;
+padding-bottom:3% !important; 
+height: 90px !important;
+}
+
+.linav{
+  font-size: 130% !important;
+  color: white !important;
+transition: 0.4s !important;
+
+}
+
+.linav2{
+  font-size: 130% !important;
+  color: black !important;
+transition: 0.4s !important;
+
+}
+
+.logo{
+
+  width:35%;
+  font-size: 200% !important;
+  color: #fad859 !important;
+  font-weight: bold;
+transition: 0.4s !important;   
+}
+
+.logo2{
+
+  width:35%;
+  font-size: 200% !important;
+  color: black !important;
+  font-weight: bold;
+   transition: 0.4s !important;
+}
+
+
+
+
+.logomobailo{
+
+	width:42px; height: 50px;
+	 
+}
+
+
+  .sidenav{
+
+	  
+}
+
+  .sidenav li a{
+font-size: 16px;  	
+color: #E2B13C !important;
+}
+
+.coriconemobile{
+
+color: #E2B13C !important;
+}
+/*navbar*/
+
+
+    input[type=text],
+    input[type=email],
+    input[type=password] {
+        width: 100%;
+        height: 50px !important;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background: #aac8f7 !important;
+        border-radius: 10px !important;
+          font-size: 170% !important;
+         color:  #4286f4 !important;
+    }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:  #4286f4 !important;
+  font-weight: bold;
+  font-size: 120% !important;
+}
+
+.btmais{
+
+  background:transparent !important; 
+
+
+  border-radius: 12px; 
+  color:white !important; 
+  width:20% !important; 
+
+  transition: 0.4s !important;
+}
+.btmais:hover{
+background: #FDCA49 !important;
+transition: 0.4s !important;
+color: #274E75 !important;
+font-size: 90% !important;
+}
+
+.divslider{
+
+
+  width: 100% !important; 
+  background: #FFFFFF !important; 
+  border-style:solid !important;
+  border-radius: 9px !important;
+  border-width: 2px !important; 
+  border-color: black !important;
+}

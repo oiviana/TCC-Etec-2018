@@ -1,0 +1,58 @@
+.pcdata{
+
+	border-right-style:solid ;
+	 border-right-color: #d64541  !important; 
+	 border-right-width:  10px !important; 
+	background:#7f8fa5  !important; font-size: 260%;height: 200px;
+	 padding-top:6.5% !important; 
+	 padding-left: 2% !important; 
+	 color: #F4D03F;
+}
+.pctitulo{
+
+font-size: 210%;
+color:#3f597c;
+font-weight: bold;
+
+
+}
+.pcconteudo{
+font-size: 150%; 
+text-align: justify;
+}
+
+.pcaltura{
+	background-color: #bfbfbf;  height: 200px !important;
+}
+
+.mobiledata{
+
+	border-bottom-style:solid ; 
+	border-bottom-color: #d64541  !important; 
+	border-bottom-width:  10px !important; 
+	background:#7f8fa5  !important; 
+	font-size: 300%; 
+	text-align: center; 
+	height: 100px;
+	color: #F4D03F;
+}
+.mobiletitulo{
+
+	
+	font-size: 190%; 
+	text-align: center;
+	color:#3f597c;
+	font-weight: bold;
+	
+}
+.mobileconteudo{
+	
+	font-size: 150%; 
+	text-align: justify;
+
+}
+
+.mobilealtura{
+background-color: #bfbfbf; 
+ height: 420px !important;
+}

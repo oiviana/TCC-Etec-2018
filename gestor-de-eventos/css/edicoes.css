@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*tipografia*/
+@font-face {
+    src:url(Molengo/Molengo-Regular.ttf);
+    font-family: 'moleelnav';
+    font-weight: normal;
+
+}
+@font-face {
+    src:url(Titillium_Web/TitilliumWeb-Regular.ttf);
+    font-family: 'foof';
+    font-weight: normal;
+
+}
+/*tipografia*/
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+      font-family: 'foof', sans-serif !important;
+}
+
+
+
+
+/*form login e cadastro*/
+
+.divform {
+
+width: 450px;
+margin: 70px auto;
+
+
+
+}
+
+.signup,.login{
+
+color: #e1e8f4;  	
+width: 50%;
+background:#4183D7;
+height: 60px;
+float: left;
+text-align: center;
+line-height: 60px;
+cursor: pointer;
+font-size: 21px !important;
+border-radius: 2px;
+}
+
+.signup-form{
+	
+
+	background: #2b64ad;
+	box-sizing: border-box;
+	padding: 40px;
+	clear: both;
+    width: 100%;
+	height: 537px;
+    border-radius: 2px;
+}
+.login-form{
+    
+   
+
+	background: #2b64ad;
+	box-sizing: border-box;
+	padding: 40px;
+	clear: both;
+    width: 100%;
+	height: 400px;
+    border-radius: 2px;
+    
+}
+
+
+.inpu{
+    background: #4d77af !important;
+
+width: 100% !important;
+box-sizing: border-box !important;
+padding: 28px !important;
+margin-bottom: 25px !important;
+border: 1px solid #6c9ee0 !important;
+color: white ;
+font-size: 22px !important; 
+outline: none;
+transition: all 0.5s ease;
+}
+
+::-webkit-input-placeholder { 
+  color: #e1e8f4;
+    font-size:20px; 
+}
+
+.input:focus{
+	border: 1px solid white !important;
+}
+
+
+
+
+body{
+    width: 100%;
+    background: #ececec !important;
+}
+
+
+.formindex{
+    font-size: 15px;
+    color: white !important;
+    text-align: center !important;
+}
+
+
+ .parallax-container {
+      height: 900px;
+
+     
+    }
+
+.caixapesquisa{
+
+    width: 14% !important;
+    transform: translate(-50%, -50%);
+    background:  #bfbfbf;
+    border-radius: 44px;
+    height: 58px;
+    padding: 10px;
+    margin-left: 10%;
+    transition: 0.4s;
+    margin-top: 15% !important;
+
+}
+
+
+.botaopesquisa{
+
+    background:  #bfbfbf;
+    float: right;
+    width:100% !important;
+    height: 40px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center !important;
+     align-items: center !important;
+     padding-left: 6%;
+     color: #F4D03F;
+
+}
+
+.txtpesquisa{
+border:none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+font-size: 16px;
+transition: 0.4s;
+line-height: 40px;
+width: 0px !important;
+margin-top: 0%;
+color: #e1e8f4;
+    font-size:20px !important; 
+
+}
+
+input[type="text"] {
+  border-bottom: none !important;
+  outline: none !important;
+}
+
+input[type=text]:focus  {
+  border-bottom: 1px solid transparent !important;
+  -webkit-box-shadow: 0 1px 0 0 transparent !important;
+  -moz-box-shadow: 0 1px 0 0 transparent !important;
+  box-shadow: 0 1px 0 0 transparent !important;
+}
+
+
+.caixapesquisa:hover > .txtpesquisa{
+
+width: 80% !important;
+padding: 0 6px !important;
+float: left !important;
+
+}
+
+.caixapesquisa:hover > .botaopesquisa{
+
+ background-color: #bfbfbf; 
+    float: right;
+    width:10% !important;
+    height: 40px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center !important;
+     align-items: center !important;
+     padding-left: 1% ;
+     color: #F4D03F;
+}
+.caixapesquisa:hover{
+
+    width: 100% !important;
+    transform: translate(-50%, -50%);
+    background:#7f8fa5  !important;
+    border-radius: 44px;
+    height: 58px;
+    padding: 10px;
+    margin-left: 50%;
+    position: relative;
+    transition: 0.4s;
+
+}
+.uldropdown{
+display: inline-block;
+  transition: width 2s !important;
+}
+
+
+.nomeuser{
+
+  height: 50px;
+  background:#7f8fa5;
+  margin-top: 2%;
+  width: 230px;
+  color: white;
+  font-size: 226% !important;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+    transition: width 2s !important;
+}
+.dropdowndados{
+
+ 
+  z-index: 1;
+  background:#7f8fa5;
+  width: 230px;
+  display: none;
+  height:68px !important; 
+  font-size: 160%;
+  height:auto !important;
+  padding-top:4%;
+  padding-bottom:4%;
+    cursor: pointer;
+    
+}
+
+
+.uldropdown:hover > .dropdowndados{
+
+ display:block !important;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
